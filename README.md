@@ -36,7 +36,8 @@ http://localhost:3000
     1. `completed` : Only the completed tasks will appear
     2. `uncompleted` : Only the incompleted tasks will appear
     3. `all` : All the tasks will appear
-6. 
+6. User can also use `Complete All Task` button to mark all the tasks as **Completed**.
+6. User can also use `Delete Completed Task` button to **delete** all the **Completed** tasks.
 
 ## Tech Stack
 * React.js
