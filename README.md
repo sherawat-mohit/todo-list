@@ -1,14 +1,15 @@
-# Tooltip
+# Todo List
 
-* A simple tooltip component which appear in different directions of the other component.
-* We can perform functions in tooltip like
-    1. Specify the **content** of the tooltip
-    2. Specify the **direction** in which tooltip will appear
+* A simple todo list web application which fetches data from ``https://jsonplaceholder.typicode.com/todos`` and represent all the tasks in the form of list.
+* We can perform functions in todolist like
+    1. **Add** new task
+    2. **Update** previous tasks
+    3. **Delete** previous tasks
 
-## Steps for setting up habit tracker
+## Steps for setting up Todo List
 1. Clone this repository using the following command:
 ```
-gh repo clone sherawat-mohit/tooltip
+gh repo clone sherawat-mohit/todo-list
 ```
 
 2. Install the required dependencies using the following command:
@@ -26,9 +27,16 @@ npm start
 http://localhost:3000
 ``` 
 
-## Steps to use Habit Tracker
-1. User can provide the **content** that they wanted to display on the tooltip.
-2. User can select the **direction** in which they wanted the tooltip to appear.
+## Steps to use Todo List
+1. User can **add** new task in the todo list.
+2. User can **update** previous tasks using the *edit icon* at the end of every task.
+3. User can **delete** previous tasks using the *delete icon* at the end of every task.
+4. User can change the status of the task to **complete** and **incompleted** using the *checkbox* at the start of every task.
+5. User can **filter** all the task as:
+    1. `completed` : Only the completed tasks will appear
+    2. `uncompleted` : Only the incompleted tasks will appear
+    3. `all` : All the tasks will appear
+6. 
 
 ## Tech Stack
 * React.js
@@ -38,4 +46,4 @@ http://localhost:3000
 
 ## About Me
 * Name - Mohit Kumar
-* Project name - Tooltip
+* Project name - Todo List
