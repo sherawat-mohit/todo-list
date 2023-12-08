@@ -38,5 +38,19 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.0"
+  },
+  "description": "A simple todo list web application which fetches data from ``https://jsonplaceholder.typicode.com/todos`` and represent all the tasks in the form of list. We can perform functions in todolist like     1. Add new task     2. Update previous tasks     3. Delete previous tasks",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sherawat-mohit/todo-list.git"
+  },
+  "author": "Mohit Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sherawat-mohit/todo-list/issues"
   }
 }
